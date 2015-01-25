@@ -17,7 +17,7 @@
 		<div class="am-alert" data-am-alert>
   <button type="button" class="am-close">&times;</button>
   		
-  		<p style="text-align: center !important;">欢迎交换友情链接，博主E-mail:<a href="mailto:starriv.993@gmail.com">starriv.993@gmail.com</a></p>
+  		<p style="text-align: center !important;">欢迎交换友情链接，博主E-mail:<a href="mailto:<?php include('conf.php'); echo MAIL;?>"><?php echo MAIL;?></a></p>
   		
 		</div>
 
@@ -28,14 +28,16 @@
         <tr>
             <th>网站名称</th>
             <th>网址</th>
-            <th>创建时间</th>
         </tr>
     </thead>
     <tbody>
         <tr class="am-active">
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>starriv | 关注安全与研发</td>
+            <td><a href="https://starriv.com/">https://starriv.com/</td>
+        </tr>
+        <tr class="am-active">
+            <td>DELUXGHOST</td>
+            <td><a href="http://deluxghost.me/">http://deluxghost.me/</td>
         </tr>
     </tbody>
 </table>

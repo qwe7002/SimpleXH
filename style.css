@@ -34,13 +34,14 @@ body{
 	color: #fff !important;
 }
 .header{
-	background: url("img/header.png");
 	box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
     background-size:cover;
     height:556px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 #header-text{
-	box-shadow: none;
+	text-shadow: 2px 4px 5px rgba(3,3,3,0.6);
 	height: 250px;
 	width: 100%;
 }

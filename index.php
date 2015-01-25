@@ -1,6 +1,6 @@
 <?php
 /**
- * 这是 Typecho 0.9 系统的一套默认皮肤
+ * 一个基于AmazeUI的Typecho模板
  * 
  * @package Typecho SimpleXH Theme 
  * @author starriv
