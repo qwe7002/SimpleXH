@@ -31,14 +31,16 @@
         </tr>
     </thead>
     <tbody>
-        <tr class="am-active">
-            <td>starriv | 关注安全与研发</td>
-            <td><a href="https://starriv.com/">https://starriv.com/</td>
-        </tr>
-        <tr class="am-active">
-            <td>DELUXGHOST</td>
-            <td><a href="http://deluxghost.me/">http://deluxghost.me/</td>
-        </tr>
+<?php
+include("conf.php");
+foreach($friendlinks as $x=>$x_value) {
+  echo '<tr class="am-active">';
+  echo "<td>" . $x . "</td>";
+  echo '<td><a href="' . $x_value.'">'.$x_value."</td>";
+  echo "</tr>";
+}
+?>
+        
     </tbody>
 </table>
 	</div>

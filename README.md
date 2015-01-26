@@ -9,8 +9,8 @@
  最近由于deluxghost的推荐用上了Typecho，然后正好小伙伴starriv做了这款主题我就拿来用了，可惜发现好多不顺啊！强迫症又犯了，于是花了一晚上的时间debug了一些东西。有喜欢的就用我这个版本的试试看咯。这个版本的模板添加了随机头部图片的功能，希望大家喜欢。
 #注意
 下面列举一些需要自己修改的地方
-* conf.php 配置一些你的个人信息，例如各种页面，图片的地址。
-* links.php 友情链接也是需要自己手动往里面插数据，表格模板我已做好
+
+* conf.php 配置一些你的个人信息，例如各种页面，图片的地址，友情链接。
 * comments.php  评论我采用的是Disqus（类似国内的多说，不喜欢的话可以自己替换成喜欢的第三方评论系统，直接覆盖代码即可）
 
 
@@ -33,7 +33,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 #Demo
 所有更新将同步github
-有同学反映称我博客加载速度很慢，再次说明的是主题右侧滑栏目加入了新浪微博挂件和 GIthub挂件，如果自己不喜欢的话可以直接干掉右边侧滑或者加入自定义内容。
+有同学反映称我博客加载速度很慢，是主题右侧滑栏目加入了新浪微博挂件和 GIthub挂件，如果自己不喜欢的话可以直接干掉右边侧滑或者加入自定义内容。
 
 
-[Demo](http://starriv.sinaapp.com)
+[Demo](http://huangjianghua.cn)
