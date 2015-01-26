@@ -1,7 +1,8 @@
 <?php 
 include('conf.php'); 
 if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
-<div id="backtop" data-am-smooth-scroll class="am-btn am-btn-success"><span class="am-icon-chevron-up am-icon-lg"></span></div>
+<div id="backtop" data-am-smooth-scroll class="am-btn am-btn-success" style="display:none;"><span class="am-icon-chevron-up am-icon-lg"></span></div>
+<script type="text/javascript" src="<?php $this->options->themeUrl('js/gotop.js'); ?>"></script>
 <footer class="footer" role="contentinfo" id="footer-sns">
 	<span class="am-icon-twitter" data-am-popover="{content: '@<?php echo TWITTER;?>', trigger: 'hover'}"> </span>
 	<span class="am-icon-envelope" data-am-popover="{content: '<?php echo MAIL;?>', trigger: 'hover'}"></span>

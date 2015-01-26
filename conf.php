@@ -6,7 +6,7 @@ define('WEIBO','<iframe width="auto" height="800px" class="share_self"  framebor
 define('TWITTER','qwe7002');
 define('STATISTICS','');//统计
 $mainlinks=array("ABOUT ME"=>"index.php/start-page.html",
-                 "友情链接"=>"index.php/start-page.html");
+                 "友情链接"=>"index.php/links.html");
 $categorylinks=array("生活"=>"index.php/category/life",
 					 "科技"=>"index.php/category/Technology",
 					 "宅物"=>"index.php/category/acger");
