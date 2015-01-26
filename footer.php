@@ -9,7 +9,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 		<a href="<?php $this->options->feedUrl(); ?>"><span class="am-icon-rss"></span></a>
 		
 	</span>
-	<p class="footer">&copy; <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>.All Rights Reserved.&nbsp;/  THEME Design and Coding BY <a href="http://weibo.com">Starriv</a></br>Hosting on Reall cloud computing and The reverse proxy by Linode</p> 
+	<p class="footer">&copy; <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>.All Rights Reserved.&nbsp;/  THEME Design and Coding BY <a href="https://starriv.com">Starriv</a>and revise BY <a href="http://huangjianghua.cn">qwe7002</a></br>Hosting on Reall cloud computing and The reverse proxy by Linode</p> 
 </footer>
 <?php
 $this->footer(); ?>
