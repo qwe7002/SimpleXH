@@ -36,4 +36,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 有同学反映称我博客加载速度很慢，再次说明的是主题右侧滑栏目加入了新浪微博挂件和 GIthub挂件，如果自己不喜欢的话可以直接干掉右边侧滑或者加入自定义内容。
 
 
-[Demo](http://starriv.sinaapp.com)
+[Demo](http://121.42.53.24:81/)
