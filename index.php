@@ -1,5 +1,6 @@
 <?php
 /**
+ * 一个基于AmazeUI的Typecho模板
  * 
  * @package Typecho SimpleXH Theme 
  * @author starriv
@@ -29,13 +30,13 @@
    	<hr data-am-widget="divider" style="" class="am-divider am-divider-default"
 />
    	<div class="am-article-title post-text">
-   	<span class="am-article-meta" id="index-concent">
+   	<span class="am-article-meta">
 <?php $this->excerpt(400, '...')?>
 
    	</span>
 
 <div id="button">
-<button type="button"  id="check" class="am-btn am-btn-primary btn-loading-example"><a href="<?php $this->permalink() ?>">查看原文</a></button></div>
+<a id="check" class="am-btn am-btn-primary btn-loading-example" href="<?php $this->permalink() ?>">查看原文</a></div>
    	</div>
   
   </div>
